@@ -1,0 +1,28 @@
+
+/* ---------------------общие--------------*/
+a {
+
+  text-decoration: none;
+  color:#E9EBEB;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .body {
+
+  margin: 0;
+  padding: 0;
+} */
+html,body {
+ 
+  font-family: 'Jost', sans-serif;
+  font-size: 16px; 
+  /* color: #7b5616;  */
+  overflow-x: hidden;
+  max-width: 1280px; 
+  margin: 0 auto; /* Центрируем контент */
+  padding: 0;
+}

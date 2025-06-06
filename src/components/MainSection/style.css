@@ -1,0 +1,28 @@
+.left-column p {
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: Jost;
+}
+.right-column {
+    margin-right: 40px;
+    margin-top: 470px;
+}
+.left-column {
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.left-column h1{
+    font-size: 48px;
+    color: #FFFFFF;
+    width: 600px;
+    font-weight: 900;
+    font-family: Jost;
+}
+.left-column h2 {
+    font-size: 25px;
+    color: #B2B2B2;
+    width: 600px;
+    font-weight: 300;
+    margin-top: 30px;
+    font-family: Jost;
+}

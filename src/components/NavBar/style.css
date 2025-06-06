@@ -1,0 +1,78 @@
+.nav-link.active {
+    color: #E77B2D!important; /* Белый текст */
+}
+.custom-nuvbar {
+    background-color: #fff;
+}
+.navbar-toggler {
+    border: none !important; 
+  
+}
+/* меню  bootstrap  убрать обводку при нажатии */
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.navbar-nav .nav-link:hover {
+    color: #FFB202;
+   
+} 
+
+.text-decor-mobile {
+
+    font-family: 'Jost',sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+
+
+}
+.text-decor-mobile:hover {
+    color: #FFB202;
+}
+
+
+.navbar-toggler-icon {
+
+    width: 2em;
+    height: 2em;
+}
+
+
+.nav-link.active {
+    color: #E77B2D!important; /* Белый текст */
+}
+.custom-nuvbar {
+    background-color: #fff;
+}
+.navbar-toggler {
+    border: none !important; 
+  
+}
+/* меню  bootstrap  убрать обводку при нажатии */
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.navbar-nav .nav-link:hover {
+    color: #FFB202;
+   
+} 
+.navbar {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    text-transform: uppercase;
+}
+.text-decor-mobile {
+    font-family: 'Jost',sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #033069;
+}
+.text-decor-mobile:hover {
+
+    color: #FFB202;
+
+
+}
+/* ---------------------меню--------------*/
