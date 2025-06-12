@@ -1,0 +1,34 @@
+.questions-section{
+    display: flex;
+    justify-content: center;
+
+}
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem; /* Расстояние между карточками */
+    padding: 1rem;
+    scroll-snap-type: x mandatory; /* Опционально: для плавного скролла по карточкам */
+}
+  
+.questions-card {
+    flex: 0 0 auto; /* Предотвращает сжатие карточек */
+    width: 300px; /* Ширина каждой карточки */
+    /* background-color: #f8f9fa; */
+    border-radius: 20px;
+    border: 1px solid #000000;
+    padding: 1rem;
+    scroll-snap-align: start; /* Опционально: для плавного скролла по карточкам */
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.05); */
+}
+.questions-card h6{
+    font-size: 25px;
+    font-weight: 600;
+    color:#050505;
+}
+.questions-card p{
+    font-size: 18px;
+    font-weight: 400;
+    color:#515151;
+}
+ 

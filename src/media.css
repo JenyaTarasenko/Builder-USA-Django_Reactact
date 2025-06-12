@@ -1,8 +1,9 @@
-@media (max-width: 990px){
-    .about-job-container-column-center-top {
-        height: 400px;
+@media (max-width: 991px){
+    .navbar {
+        border-radius: 0 0 10px 10px ;
     }
 }
+
 @media (max-width: 950px){
     .circle-card {
         margin-left: 620px;
@@ -15,7 +16,8 @@
     }
     .left-column h2 {
         font-size: 20px;
-        width: 300px;
+        width: 320px;
+        font-weight: 600;
     }
     .right-column {
         margin-top: 0;
@@ -67,6 +69,7 @@
 @media (max-width: 590px){
     .about-job-container-column-center-top {
         width: 320px;
+        height: 400px;
     }
     .about-job-container-column-center-top h5 {
         font-size: 30px;

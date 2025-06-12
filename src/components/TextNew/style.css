@@ -1,0 +1,23 @@
+.text-block-left h5 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.text-block-right {
+    font-size: 30px;
+    font-weight: 800;
+    color: #404040;
+}
+.text-block-right-center h6{
+    font-size: 20px;
+    font-weight: 800;
+    color: #E77B2D;
+}
+.project-image-container {
+    width:400px; 
+    height:625px;
+}
+.project-container-left {
+    width:400px;
+    height:300px;
+
+}

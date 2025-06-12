@@ -17,12 +17,15 @@
     width: 600px;
     font-weight: 900;
     font-family: Jost;
+    text-transform: uppercase;
 }
 .left-column h2 {
     font-size: 25px;
-    color: #B2B2B2;
+    color: #d0d0d0;
     width: 600px;
-    font-weight: 300;
+  
     margin-top: 30px;
     font-family: Jost;
+    font-style: italic;
+    font-weight: 300;
 }

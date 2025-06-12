@@ -1,0 +1,47 @@
+.btn-with-circle-smale {
+    position: relative;
+    padding-right: 60px; /* место для круга */
+    width: 120px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #a9a9a9;
+    color: rgb(2, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+   
+}
+.circle-inside-smale {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.circle-inside img {
+    max-width: 70%;
+    height: auto;
+}
+
+.btn-with-circle-smale:hover {
+    border-color: #E77B2D; /* Цвет при наведении */
+    color: #E77B2D;
+}
+
+  .btn-with-circle-smale:active {
+    border-color: #E77B2D; /* Цвет при нажатии */
+    color: #E77B2D;
+}
+.btn-with-circle-smale:hover .circle-inside-smale {
+    background-color: #E77B2D; /* Цвет круга при наведении */
+}

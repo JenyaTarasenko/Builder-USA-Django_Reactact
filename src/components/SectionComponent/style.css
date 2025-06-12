@@ -1,0 +1,52 @@
+.circle-with-number {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color:#FF9020;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 18px;
+
+ 
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+
+}
+
+.button-next {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #FFCF9F;
+  color: rgb(6, 6, 6);
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.wrapper{
+  padding-left: 70px;
+}
+
+.circle-with-number,
+.button-next {
+transition: transform 0.3s ease;
+cursor: pointer;
+}
+
+/* Увеличение при наведении */
+.circle-with-number:hover,
+.button-next:hover {
+transform: scale(1.04);
+}
+
+/* Ещё большее увеличение при нажатии */
+.circle-with-number:active,
+.button-next:active {
+transform: scale(1.15);
+}
