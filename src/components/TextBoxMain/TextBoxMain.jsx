@@ -10,7 +10,7 @@ function TextBoxMain(){
                     <div className="row">
                         <div className="col-md-6 d-flex flex-column text-box-column">
                             <h3>We’ve been in the construction industry for many years, serving the U.S. market with dedication and expertise.</h3>
-                            <h4 className="mt-2">Our team has extensive experience, and we’re proud to have earned the trust of many satisfied clients..</h4>
+                            <h4 className="mt-2" style={{fontStyle: 'italic', fontWeight: '300'}}>Our team has extensive experience, and we’re proud to have earned the trust of many satisfied clients..</h4>
                         </div>
                         <div className="col-md-6 d-flex align-items-end">
                             <div className="d-flex flex-row gap-4">

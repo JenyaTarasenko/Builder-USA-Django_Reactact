@@ -28,7 +28,7 @@ import ContactUs from "../../components/ContactUs/ContactUs";
 import AboutJobSection from "../../components/AboutJobSection/AboutJobSection";
 // section questions
 import QuestionSection from "../../components/QuestionSection/QuestionSection";
-
+// section footer
 import Footer from "../../components/Footer/Footer";
 
 
@@ -41,8 +41,8 @@ function Index(){
         <TextBoxMain />
         <SectionComponent number={2} buttonText="TYPES OF WORK" />
         <BoxProject />
-        <SectionComponent number={3} buttonText="REVIEWS" />
         <TextNew />
+        <SectionComponent number={3} buttonText="REVIEWS" />
         <SliderReview  />
         <TextCenterSection />
         <SectionComponent number={4} buttonText="ALL TYPES OF WORK" />

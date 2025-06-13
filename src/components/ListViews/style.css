@@ -1,0 +1,37 @@
+.card-img {
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.card-text h5{
+    font-size: 20px;
+    font-weight: 800;
+    white-space: nowrap;         /* не переносить строку */
+    overflow: hidden;            /* скрыть лишнее */
+    text-overflow: ellipsis;
+    font-style: italic;
+    text-transform: uppercase;
+ 
+
+}
+.card-description h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5d5d5d;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;       /* Ограничить до 3 строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card {
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+  
+.card:hover,
+.card:active {
+    transform: scale(1.03);
+}

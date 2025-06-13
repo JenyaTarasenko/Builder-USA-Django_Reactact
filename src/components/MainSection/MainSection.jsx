@@ -23,7 +23,6 @@ function MainSection(){
                 </div>
             </div>
         </section>
-        
     );
     
 }

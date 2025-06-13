@@ -4,7 +4,7 @@ import ButtonWhiteMain from '../ButtonWhiteMain/ButtonWhiteMain';
 
 function ContactUs(){
     return(
-        <section className="image-jobs-items mt-5">
+        <section className="image-jobs-items mt-5 mb-3">
             <div className="container">
             <div className="row justify-content-center">
                 <div className="col-12">

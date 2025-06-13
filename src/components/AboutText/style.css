@@ -1,0 +1,11 @@
+
+.text-detail-button h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.text-detail-button-description h3,
+.text-detail-button-description h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #515151;
+}
