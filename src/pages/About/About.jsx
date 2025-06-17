@@ -15,7 +15,12 @@ import SliderReview from "../../components/SliderReview/SliderReview";
 import ContactUs from "../../components/ContactUs/ContactUs";
 // компонент секция с текстом
 import TextNew from "../../components/TextNew/TextNew";
-
+// image in section   <ContactUs image={imageJob} />
+import imageJob from '../../assets/image/contactUs4.jpg';
+// scroll
+import ScrollToTopButton from "../../components/ScrollToButton/ScrollToButton";
+// tel-fixed
+import CallButtonFixed  from "../../components/CallButtonFixed/CallButtonFixed";
 
 function About(){
     return(
@@ -28,9 +33,9 @@ function About(){
             <TextNew />
             <SectionComponent number={2} buttonText="REVIEW" />
             <SliderReview />
-       
-            <ContactUs />
-
+            <ContactUs image={imageJob} />
+            <ScrollToTopButton />
+            <CallButtonFixed />
 
             <Footer />
         </>

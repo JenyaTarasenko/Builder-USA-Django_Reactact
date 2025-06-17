@@ -37,7 +37,7 @@ const DetailViews =()=>{
                 <div className="container">
                     <div className="row">
                         <div className="text-detail-button">
-                            <h1>{project.name}</h1>
+                            <h1 style={{fontStyle: "italic"}}>{project.name}</h1>
                         </div>
                         <div className="text-detail-button-description mt-2">
                             <h2>{project.description}</h2>

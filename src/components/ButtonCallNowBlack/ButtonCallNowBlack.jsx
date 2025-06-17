@@ -1,9 +1,9 @@
 import './style.css';
 
 
-function ButtonCallNowBlack({ link, buttonText }){
+function ButtonCallNowBlack({ href, buttonText }){
     return(
-        <a href={link}>
+        <a href={href}>
             <button className="button-call-now">
                 {buttonText}
             </button>

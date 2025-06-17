@@ -4,7 +4,7 @@ import ButtonLittle from '../ButtonLittle/ButtonLittle';
 
 function CardBlackMain(){
     return(
-        <section className="card-black mt-5">
+        <section className="card-black mt-5 mb-4">
             <div className="container">
                 <div className="row align-items-center justify-content-center">
                     <div className="card-black-container d-flex flex-column justify-content-center">
@@ -14,13 +14,9 @@ function CardBlackMain(){
                         </div>
                         <div className="card-black-container-column d-flex flex-row flex-wrap mt-5 gap-4 justify-content-center justify-content-lg-start px-5">
                             
-                            <ButtonWhiteMain href="#" buttonText="Write me" />
+                            <ButtonWhiteMain link="mailto:alekfitkin@gmail.com" buttonText="Write me" />
                         
-                            
-                
-
                             {/* <a href=""><button class="button-call-now-white">Call Now</button></a> */}
-
                         </div>
                     </div>
                 </div>

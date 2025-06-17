@@ -30,7 +30,12 @@ import AboutJobSection from "../../components/AboutJobSection/AboutJobSection";
 import QuestionSection from "../../components/QuestionSection/QuestionSection";
 // section footer
 import Footer from "../../components/Footer/Footer";
-
+// image in section   <ContactUs image={imageJob} />
+import imageJob from '../../assets/image/image-job.png';
+// scroll
+import ScrollToTopButton from "../../components/ScrollToButton/ScrollToButton";
+// tel-fixed
+import CallButtonFixed  from "../../components/CallButtonFixed/CallButtonFixed";
 
 function Index(){
     return(
@@ -48,17 +53,17 @@ function Index(){
         <SectionComponent number={4} buttonText="ALL TYPES OF WORK" />
         <WorkBoxSection />
         <CardBlackMain />
-        <TextCenterSection />
         <SectionComponent number={5} buttonText="TEAM" />
         <Team  />
         <SectionComponent number={6} buttonText="ABUOT JOB" />
         <AboutJobSection />
         <SectionComponent number={7} buttonText="Contact us" />
-        <ContactUs />
+        <ContactUs image={imageJob} />
         <SectionComponent number={8} buttonText="Questions" />
         <QuestionSection />
+        <CallButtonFixed />
+        <ScrollToTopButton  />
         <Footer />
-
         {/* <ListViews/> */}
         </>
     )

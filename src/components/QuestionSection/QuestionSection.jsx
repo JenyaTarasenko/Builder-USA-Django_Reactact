@@ -3,7 +3,7 @@ import './style.css';
 
 function QuestionSection(){
     return(
-        <section className="questions-section mt-5">
+        <section id="question" className="questions-section mt-5">
             <div className="scroll-container">
                 <div className="questions-card">
                     <h6>How soon can you start a project?</h6>

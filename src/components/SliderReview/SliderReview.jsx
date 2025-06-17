@@ -11,7 +11,7 @@ import review4 from '../../assets/image/card-7.svg';
 function SliderReview(){
     return(
         <>
-            <div className="slider-container mt-5">
+            <div id="slider-review" className="slider-container mt-5">
                 <div class="slider-track">
                     <div class="card">
                         <img src={review5} alt="img1" />

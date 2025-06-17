@@ -13,12 +13,12 @@ function MainSection(){
                     <div className="left-column">
                         <h1><span style={{ color: '#ffc107', fontStyle: "italic"}}>All types </span>of construction work in <span style={{ color: '#ffc107', fontStyle: "italic" }}>Michigan</span></h1>
                         <h2>Professional Solutions for Home Improvement and Renovation</h2>
-                            <ButtonWhiteMain  link="#" buttonText="Contact us" />
+                            <ButtonWhiteMain  link="tel:2314397166" buttonText="Contact us" />
                        <img src={manStyle} style={{marginTop: '40px'}}/>
                        <p>Many people trust us and are satisfied with the results.</p>
                     </div>
                     <div className="right-column">
-                        <ButtonLittle   link="#" buttonText="Write"/>
+                        <ButtonLittle   link="mailto:alekfitkin@gmail.com" buttonText="Write"/>
                     </div>
                 </div>
             </div>

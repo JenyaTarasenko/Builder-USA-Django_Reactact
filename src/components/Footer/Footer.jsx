@@ -27,7 +27,7 @@ function Footer(){
                         </div>
                         <div className="col-md-6 col-12">
                             <div className="footer-container-left d-flex justify-content-center flex-column">
-                                <h5>All types of construction work in Michigan</h5>
+                                <h5 style={{textTransform:'uppercase',fontStyle: "italic" }}>All types of construction work in Michigan</h5>
                                 <div class="d-flex flex-row mt-3 align-items-start">
                                     <img src={location } alt="location" />
                                     <div className="mt-auto"><h6>USA Michigan</h6></div>

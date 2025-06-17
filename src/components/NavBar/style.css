@@ -1,6 +1,27 @@
-.nav-link.active {
-    color: #E77B2D!important; /* Белый текст */
+.nav-link {
+    color: #000;
+    transition: color 0.3s ease;
 }
+  
+.nav-link:hover {
+    color: #FFB202;
+}
+  
+.nav-link.active {
+    color: #E77B2D !important;
+    font-style: italic;
+}
+  
+.nav-link.active:hover {
+    color: #FFB202 !important;
+}
+  
+/* .navbar-nav .nav-link:hover {
+    color: #FFB202;
+} 
+.nav-link.active {
+    color: #E77B2D!important;
+} */
 .custom-nuvbar {
     background-color: #fff;
 }
@@ -13,34 +34,20 @@
     outline: none !important;
     box-shadow: none !important;
 }
-.navbar-nav .nav-link:hover {
-    color: #FFB202;
-   
-} 
-
 .text-decor-mobile {
-
     font-family: 'Jost',sans-serif;
     font-size: 18px;
     color: rgb(0, 0, 0);
-
-
 }
 .text-decor-mobile:hover {
     color: #FFB202;
 }
-
 
 .navbar-toggler-icon {
 
     width: 2em;
     height: 2em;
 }
-
-
-.nav-link.active {
-    color: #E77B2D!important; /* Белый текст */
-}
 .custom-nuvbar {
     background-color: #fff;
 }
@@ -48,31 +55,34 @@
     border: none !important; 
   
 }
-/* меню  bootstrap  убрать обводку при нажатии */
-.navbar-toggler:focus {
-    outline: none !important;
-    box-shadow: none !important;
-}
-.navbar-nav .nav-link:hover {
-    color: #FFB202;
-   
-} 
+
 .navbar {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
     color: #000000;
     text-transform: uppercase;
 }
-.text-decor-mobile {
-    font-family: 'Jost',sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    color: #033069;
-}
+
 .text-decor-mobile:hover {
 
     color: #FFB202;
-
-
 }
-/* ---------------------меню--------------*/
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    transition: transform 0.3s ease;
+}
+  
+  /* Когда меню открыто — поворот и замена иконки */
+.navbar-toggler.collapsed .navbar-toggler-icon {
+    transform: rotate(0deg);
+}
+  
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.7%29' stroke-width='2' stroke-linecap='round' d='M6 6L24 24M6 24L24 6'/%3E%3C/svg%3E");
+    transform: rotate(180deg);
+}
+  
+.navbar-toggler:focus,
+.navbar-toggler:not(.collapsed) {
+  color: #E77B2D; /* активный цвет иконки */
+}

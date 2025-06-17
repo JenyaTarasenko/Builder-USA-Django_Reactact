@@ -11,7 +11,7 @@ function ProjectsMain(){
                     <div className="left-column">
                         <h1><span style={{ color: '#ffc107', fontStyle: "italic"}}>Professional Building</span> & Remodeling Services</h1>
                         <h2>We provide a full range of construction services across Michigan — from residential renovations to large-scale commercial projects.</h2>
-                            <ButtonWhiteMain  link="#" buttonText="Contact us" />
+                            <ButtonWhiteMain  link="tel:2314397166" buttonText="Contact us" />
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import ButtonCallNowBlack from '../ButtonCallNowBlack/ButtonCallNowBlack';
 
 function TextCenterSection(){
     return(
-        <section className="text-center-section mt-5">
+        <section className="text-center-section mt-5 mb-3">
             <div className="container">
                 <div className="row">
                     <div className="text-center">
@@ -20,7 +20,7 @@ function TextCenterSection(){
                         </div>
                     </div>
                     <div className="d-flex align-items-center justify-content-center mt-2">
-                       <ButtonCallNowBlack  link="#"  buttonText="CALL US" />
+                       <ButtonCallNowBlack  href="tel:2314397166"  buttonText="CALL US" />
                     </div>
                 </div>
             </div>

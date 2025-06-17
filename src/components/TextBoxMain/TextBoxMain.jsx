@@ -5,7 +5,7 @@ import './style.css';
 function TextBoxMain(){
     return(
         <>
-            <section className="text-box mt-5">
+            <section id="textboxmain" className="text-box mt-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 d-flex flex-column text-box-column">

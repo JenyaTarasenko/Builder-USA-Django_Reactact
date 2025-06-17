@@ -12,9 +12,12 @@ import ListViews from '../../components/ListViews/ListViews';
 import TextCenterSection from "../../components/TextCenterSection/TextCenterSection";
 // gallery section
 import Gallery from "../../components/Gallery/Gallery";
-
 import ProjectsAllText from "../../components/ProjectsAllText/ProjectsAllText";
 import TextNew from "../../components/TextNew/TextNew";
+// scroll
+import ScrollToTopButton from "../../components/ScrollToButton/ScrollToButton";
+// tel-fixed
+import CallButtonFixed  from "../../components/CallButtonFixed/CallButtonFixed";
 
 function ProjectsPage(){
     return(
@@ -27,8 +30,9 @@ function ProjectsPage(){
             <TextNew />
             <SectionComponent number={2} buttonText="Project Gallery" />
             <Gallery />
-            
+            <ScrollToTopButton />
             <TextCenterSection />
+            <CallButtonFixed />
             <Footer />
         </>
     );

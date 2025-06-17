@@ -10,6 +10,10 @@ import Index from './pages/Index/Index'
 import About from './pages/About/About';
 // page ProjectsPage
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
+// page ContactUs
+import ContactPage from './pages/ContactPage/ContactPage'
+
+
 
 
 
@@ -21,6 +25,7 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/projects-all" element={<ProjectsPage />} />
           <Route path="/projects/:slug" element={< Detail/>} />
+          <Route path="/contact" element={< ContactPage />} />
         </Routes>
       </Router>
   )
