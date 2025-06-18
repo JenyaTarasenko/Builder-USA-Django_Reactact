@@ -29,3 +29,27 @@
     font-style: italic;
     font-weight: 300;
 }
+
+/* анимация текста */
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+  
+.fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+}
+  
+.delay-1 {
+    animation-delay: 0.5s;
+}
+/* анимация текста */
+  

@@ -50,26 +50,17 @@ const DetailViews =()=>{
             </div>
             <div className="container my-5">
                 <div className="row">
+                    {/* подменяет картинку если не загружена то   || '/src/assets/image/slaider/slaider1.jpeg' */}
                     <div className="col-md-6">
-                        <img src={project.image2  || '/src/assets/image/about.png'} className="img-fluid rounded mb-3" alt="Big Image" />
+                        <img src={project.image2  || '/src/assets/image/slaider/slaider1.jpeg'} className="img-fluid rounded mb-3" alt="Big Image" />
                     </div>
                     <div className="col-md-6">
-                        <img src={project.image3 || '/src/assets/image/about.png'} className="img-fluid rounded mb-3" alt="Big Image" />
+                        <img src={project.image3 || '/src/assets/image/slaider/slaider2.jpeg'} className="img-fluid rounded mb-3" alt="Big Image" />
                     </div>
                 </div>
             </div>
         </>
-        // <div>
-        //     <div className="detail">
-        //         <div>Detail page</div>
-        //         <h2>{project.name}</h2>    
-        //     </div>
-        //     <div>
-        //         <img src={project.image} alt={project.name} style={{ maxWidth: '400px' }} />
-        //     </div>
-        //     <p><strong>Описание:</strong> {project.description}</p>
-        //     <p><strong>Технологии:</strong> {project.tehnology_project}</p>
-        // </div>
+       
     );
 }
 export default DetailViews;

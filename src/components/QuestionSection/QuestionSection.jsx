@@ -15,7 +15,7 @@ function QuestionSection(){
                 </div>
                 <div className="questions-card">
                     <h6>What types of work do you do?</h6>
-                    <p className="mt-4">We specialize in complete construction solutions, inside and out</p>
+                    <p className="mt-4">We handle all types of work, from facade painting to carpentry and drywall installation.</p>
                 </div>
             </div>
         </section>

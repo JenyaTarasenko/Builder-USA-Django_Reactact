@@ -15,17 +15,26 @@ import SliderReview from "../../components/SliderReview/SliderReview";
 import ScrollToTopButton from "../../components/ScrollToButton/ScrollToButton";
 // tel-fixed
 import CallButtonFixed  from "../../components/CallButtonFixed/CallButtonFixed";
+// компонент Секция с сменными параметрами секции
+import SectionComponent from "../../components/SectionComponent/SectionComponents";
+// section questions
+import QuestionSection from "../../components/QuestionSection/QuestionSection";
 
 function ContactPage(){
     return(
         <>
             <NavBar />
             <ContactSection />
+            <SectionComponent number={1} buttonText="TEAM" />
             <Team />
+            <SectionComponent number={2} buttonText="SOCIAL" />
             <CardBlackContact />
+            <SectionComponent number={3} buttonText="REVIEW" />
             <SliderReview  />
             <CallButtonFixed />
             <ScrollToTopButton />
+            <SectionComponent number={4} buttonText="Question" />
+            <QuestionSection />
             <Footer />
 
         </>

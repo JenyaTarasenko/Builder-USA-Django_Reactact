@@ -18,8 +18,8 @@ function ContactSection(){
                         minHeight: '300px',
                     }}>
                     <div className="image-jobs-items-text text-center">
-                        <h5><span style={{ color: '#ffc107', fontStyle: "italic" , fontSize:"60px"}}>NEED HELP </span><br />WITH A PROJECT ?</h5>
-                        <h6 className="mt-5"  style={{ color: '#ffc107',fontSize:"30px", textTransform:'uppercase', fontWeight:'900'}}><span style={{fontStyle: "italic" , color:'#FFFFFF', fontSize:'35px'}}>All types</span> of construction<br /><span style={{fontStyle: "italic" , color:'#FFFFFF', fontSize:'35px'}}>work</span></h6>
+                        <h5 className="fade-in-up"><span style={{ color: '#ffc107', fontStyle: "italic" , fontSize:"60px"}}>NEED HELP </span><br />WITH A PROJECT ?</h5>
+                        <h6 className="mt-5 fade-in-up delay-1"  style={{ color: '#ffc107',fontSize:"30px", textTransform:'uppercase', fontWeight:'900'}}><span style={{fontStyle: "italic" , color:'#FFFFFF', fontSize:'35px'}}>All types</span> of construction<br /><span style={{fontStyle: "italic" , color:'#FFFFFF', fontSize:'35px'}}>work</span></h6>
                         <div className="d-flex justify-content-center">
                         <ButtonWhiteMain  link="tel:2314397166"  buttonText="Contact us"/>
                         </div>

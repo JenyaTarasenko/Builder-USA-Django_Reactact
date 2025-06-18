@@ -10,15 +10,17 @@
 .column-text-right h5{
     font-size: 60px;
     font-weight: 800;
+    font-style: italic;
  
 
 }
 .column-text-right p{
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     color: #767575;
     text-transform: uppercase;
     opacity: 40%;
+    letter-spacing: 5px;
 }
 .project-image-container h4{
     font-size: 70px;
@@ -44,7 +46,7 @@
     font-weight: 800;
     color: #ffffff;
     text-transform: uppercase;
-    margin-top: 140px;
+    margin-top: 120px;
     margin-left: 40px;
     
 }
@@ -58,4 +60,9 @@
     transform: scale(0.98);
     filter: brightness(0.85);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.span-text { 
+    color:#ffc107;
+    font-style:italic;
+    font-size: 60px;
 }

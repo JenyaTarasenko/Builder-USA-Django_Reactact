@@ -6,7 +6,7 @@ function ProjectsAllText(){
             <div className="container">
                 <div className="row">
                     <div className="text-detail-button">
-                        <h1>Experienced Builders Delivering Quality Work On Time — From Minor Repairs to Major Renovations</h1>
+                        <h1 className='text-detail-button-items'><span style={{fontStyle:'italic', color:"#ffc107"}}>Experienced Builders </span> Delivering Quality Work On Time — From Minor Repairs to Major <span style={{fontStyle:'italic', color:"#ffc107"}}>Renovations</span></h1>
                     </div>
                     <div className="text-detail-button-description mt-2">
                         <h2>We provide complete exterior solutions — from full home painting, woodwork, and custom carpentry to facade restoration, roof repairs, and upgraded outdoor lighting that boosts both protection and curb appeal.</h2>

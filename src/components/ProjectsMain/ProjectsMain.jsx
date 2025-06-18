@@ -9,8 +9,8 @@ function ProjectsMain(){
             <div className="position-relative overflow-hidden text-white main-style-section">
                 <div className="position-relative d-flex justify-content-between align-items-center flex-wrap">
                     <div className="left-column">
-                        <h1><span style={{ color: '#ffc107', fontStyle: "italic"}}>Professional Building</span> & Remodeling Services</h1>
-                        <h2>We provide a full range of construction services across Michigan — from residential renovations to large-scale commercial projects.</h2>
+                        <h1 className="fade-in-up"><span style={{ color: '#ffc107', fontStyle: "italic"}}>Professional Building</span> & Remodeling Services</h1>
+                        <h2 className="fade-in-up delay-1">We provide a full range of construction services across Michigan — from residential renovations to large-scale commercial projects.</h2>
                             <ButtonWhiteMain  link="tel:2314397166" buttonText="Contact us" />
                     </div>
                 </div>

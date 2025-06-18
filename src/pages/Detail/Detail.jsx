@@ -20,8 +20,8 @@ function Detail(){
         < NavBar />
         <DetailViews />
         <TextNew />
-        <CardBlackMain />
         <Gallery />
+        <CardBlackMain />
         <CallButtonFixed />
         <ScrollToTopButton />
         <Footer />

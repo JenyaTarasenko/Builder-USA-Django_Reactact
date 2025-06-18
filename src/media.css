@@ -33,7 +33,7 @@
 }
 @media (max-width: 767px){
     .footer-section {
-        height: 800px;
+        height: 820px;
     }
     .footer-container-left {
         margin-top: 30px;
@@ -125,6 +125,12 @@
     }
 }
 @media (max-width: 480px){
+    .text-detail-button-items{
+        font-size: 25px;
+    }
+    .footer-section {
+        height: 870px;
+    }    
     .column-text-right h5 {
         font-size: 40px;
     }    
@@ -138,6 +144,9 @@
     }    
 }
 @media (max-width: 424px){
+    .span-text{
+        font-size: 40px;
+    }
     .image-text-card{
         width: 300px;
     }    
