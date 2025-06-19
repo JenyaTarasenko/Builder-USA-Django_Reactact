@@ -18,6 +18,8 @@ import TextNew from "../../components/TextNew/TextNew";
 import ScrollToTopButton from "../../components/ScrollToButton/ScrollToButton";
 // tel-fixed
 import CallButtonFixed  from "../../components/CallButtonFixed/CallButtonFixed";
+// section about-projects
+import SectionJobReally from "../../components/SectionJobReally/SectionJobReally";
 
 function ProjectsPage(){
     return(
@@ -28,6 +30,7 @@ function ProjectsPage(){
             <SectionComponent number={1} buttonText="ALL PROJECTS" />
             <ListViews />
             <TextNew />
+            <SectionJobReally />
             <SectionComponent number={2} buttonText="Project Gallery" />
             <Gallery />
             <ScrollToTopButton />
