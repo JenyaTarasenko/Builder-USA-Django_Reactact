@@ -24,22 +24,21 @@ function WorkBoxSection(){
             <div class="container">
                 <div class="row justify-content-center">
             
-                    <div className="col-12 col-lg-6  d-flex justify-content-center">
-                        <img className="image-text-card" src={TextBlock} />
+                    <div className="col-12 col-lg-6  d-flex justify-content-center mb-4 mb-lg-0">
+                        <img className="img-fluid rounded-5" src={TextBlock} />
                     </div>
                     <div id="interior" class="col-lg-6 d-flex flex-column image-text-card-items">
                         <h6><span style={{ color: '#ffc107',  fontStyle: "italic" , fontSize:"60px" }}>INTERIOR</span> WORK</h6>
                         <h5>Complete exterior painting for homes, siding, and trim Woodwork and carpentry services, including repair and custom installations.Facade restoration and painting, giving your property a fresh, modern look.Roof repair and maintenance, protecting your home from the elements.Outdoor lighting replacement and upgrades, improving safety and curb appeal</h5>
                         <div className="d-flex flex-row-reverse justify-content-end mt-2">
                             <img src={ManStyle}  alt="job-image" />
-                            {/* <div class="secondary-text-card-items"><p>Many people trust our team</p></div>  */}
                         </div>
                     </div>
             
                 </div>
                 <div class="row justify-content-center mt-5">
             
-                    <div id="exterior" class="col-lg-6 d-flex flex-column image-text-card-items">
+                    <div id="exterior" class="col-lg-6 d-flex flex-column image-text-card-items mb-2 mb-lg-0 order-2 order-lg-0">
                         <h6><span style={{ color: '#ffc107', fontStyle: "italic" , fontSize:"60px" }}>EXTERIOR</span> WORK</h6>
                         <h5>We provide comprehensive interior services including drywall replacement, all types of painting (walls and ceilings), light fixture installation, full plumbing solutions, wall-mounted TV installation, and a wide range of electrical work — all delivered with professional care and precision.</h5>
                         <div className="d-flex mt-4 mb-5">
@@ -47,21 +46,20 @@ function WorkBoxSection(){
                         </div>
                     </div>
                     <div className="col-12 col-lg-6  d-flex justify-content-center">
-                        <img  className="image-text-card" src={TextBlock2}  alt="job-image"  />
+                        <img  className="img-fluid rounded-5" src={TextBlock2}  alt="job-image"  />
                     </div>
             
                 </div>
                 <div class="row justify-content-center mt-5">
     
-                    <div className="col-12 col-lg-6  d-flex justify-content-center">
-                        <img  className="image-text-card" src={TextBlock3}  alt="job-image"  />
+                    <div className="col-12 col-lg-6  d-flex justify-content-center mb-4 mb-lg-0">
+                        <img  className="img-fluid rounded-5" src={TextBlock3}  alt="job-image"  />
                     </div>
                     <div id="painting" class="col-lg-6 d-flex flex-column image-text-card-items">
                         <h6>ALL TYPES OF <span style={{ color: '#ffc107', fontStyle: "italic" , fontSize:"60px" }}>PAINTING</span></h6>
                         <h5>Complete exterior painting for homes, siding, and trim Woodwork and carpentry services, including repair and custom installations.Facade restoration and painting, giving your property a fresh, modern look.Roof repair and maintenance, protecting your home from the elements.Outdoor lighting replacement and upgrades, improving safety and curb appeal</h5>
                         <div className="d-flex flex-row justify-content-end mt-2">
                             <img src={ManStyle2} alt="job-image" />
-                                {/* <div className="secondary-text-card-items"><p>Many people trust our team</p></div> */}
                         </div>
                     </div>
                 </div>
