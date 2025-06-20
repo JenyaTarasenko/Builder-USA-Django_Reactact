@@ -9,15 +9,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-mzr-r!@9%tq2b^8w#w72k35#l2y96^-0gqrs0kly+t6%3h^w%j'
 
 
-DEBUG = True
-# DEBUG = False
+# DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+# ALLOWED_HOSTS = ["*"]
 
 
-# ALLOWED_HOSTS = [
-#     'JenyaTarasenko.pythonanywhere.com',
-# ]
+ALLOWED_HOSTS = [
+    'BuilderAlexander.pythonanywhere.com',
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -131,10 +131,10 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     
     # после обновления обязательно npm run build  и потом python manage.py collectstatic
-    # "https://jenyatarasenko.pythonanywhere.com",# React
+    "https://BuilderAlexander.pythonanywhere.com",# React
     
     
-    # 'http://localhost:5173',
+    'http://localhost:5173',
     'http://127.0.0.1:8001',
 
 ]
