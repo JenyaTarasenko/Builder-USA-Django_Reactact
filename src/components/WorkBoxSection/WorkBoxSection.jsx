@@ -42,7 +42,7 @@ function WorkBoxSection(){
                         <h6><span style={{ color: '#ffc107', fontStyle: "italic" , fontSize:"60px" }}>EXTERIOR</span> WORK</h6>
                         <h5>We provide comprehensive interior services including drywall replacement, all types of painting (walls and ceilings), light fixture installation, full plumbing solutions, wall-mounted TV installation, and a wide range of electrical work — all delivered with professional care and precision.</h5>
                         <div className="d-flex mt-4 mb-5">
-                            <ButtonCallNowBlack href="/projects-all" buttonText="All projects" />
+                            {/* <ButtonCallNowBlack href="/projects-all" buttonText="All projects" /> */}
                         </div>
                     </div>
                     <div className="col-12 col-lg-6  d-flex justify-content-center">
