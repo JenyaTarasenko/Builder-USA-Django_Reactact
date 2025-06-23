@@ -52,7 +52,7 @@ function AboutJobSection(){
                         <div className="d-flex flex-row flex-wrap px-4 mt-3 text-md-start align-items-center justify-content-md-start justify-content-center">
                             <h6>Our team is committed to continuously<br />improving the quality of our work.</h6>
                             <div className="ps-md-5 mt-2">
-                                <ButtonCallNowBlack  href=" #question" buttonText="View" />
+                                <ButtonCallNowBlack  href="#question" buttonText="View" />
                             </div>
                         </div>
                     </div>
