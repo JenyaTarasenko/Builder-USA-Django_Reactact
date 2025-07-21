@@ -26,7 +26,7 @@ function AboutJobSection(){
                                     element.scrollIntoView({ behavior: 'smooth' });
                                 }
                             }}>
-                                <div className="justify-content-center mt-4 px-3">
+                                <div className="justify-content-center mt-4 px-4">
                                     <img src={manStyle} />
                                     <p className="mt-2" style={{fontSize: '13px',  color:'#fff'}}>Many people trust us and are satisfied with the results.</p>
                                 </div>

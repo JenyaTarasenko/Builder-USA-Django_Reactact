@@ -2,8 +2,9 @@ import './style.css';
 import instgram from '../../assets/image/Instagram-black.svg';
 import facebook from '../../assets/image/Facebook-black.svg';
 import location from '../../assets/image/Location.svg';
-import Logo from '../../assets/image/Logo.png';
+
 import ButtonFooter from '../ButtonFooter/ButtonFooter';
+import logo from '../../assets/image/logo-builder.png';
 
 function Footer(){
     return(
@@ -13,7 +14,7 @@ function Footer(){
                     <div className="footer-section-container d-flex flex-row flex-wrap mt-5">
                         <div className="col-md-6 col-12">
                             <div className="footer-container-right">
-                                <img src={Logo} class="image-foore-logo-top" alt="footer-logo" />
+                                <img src={logo}  style={{width:'300px', height:"150px"}}  alt="footer-logo" />
                                 <h5 className="mt-5">Professional Solutions for Home<br />Improvement and Renovation</h5>
                                 <div className="footer-text-letter mt-5">
                                     <a href="#"><h5>231-439-7166</h5></a>
@@ -39,7 +40,7 @@ function Footer(){
                             </div>
                         </div>
                         <div style={{borderTop:'1px solid #000', width: '100%', marginTop: '40px'}}></div>
-                        <div className="footer-coperaite mt-2"><a href=""><p>&copy; 2025 Mars desin studio</p></a></div>
+                        <div className="footer-coperaite mt-2"><a href="https://www.web-mars.com/"><p>&copy; 2025 Mars desin studio</p></a></div>
                     </div>
                 </div>
             </div>

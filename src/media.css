@@ -11,7 +11,7 @@
 }
 @media (max-width: 991px){
     .left-column h1{
-        font-size: 30px;
+        font-size: 35px;
         width: 300px;
     }
     .left-column h2 {
@@ -20,7 +20,7 @@
         font-weight: 600;
     }
     .right-column {
-        margin-top: 0;
+        margin-top: 30px;
 
     }
     .btn-with-circle-smale{
@@ -33,7 +33,7 @@
 }
 @media (max-width: 767px){
     .footer-section {
-        height: 820px;
+        height: 900px;
     }
     .footer-container-left {
         margin-top: 30px;
@@ -128,9 +128,9 @@
     .text-detail-button-items{
         font-size: 25px;
     }
-    .footer-section {
+    /* .footer-section {
         height: 870px;
-    }    
+    }     */
     .column-text-right h5 {
         font-size: 40px;
     }    
@@ -159,5 +159,8 @@
     }
     .project-image-container h4{
         font-size: 40px;
+    }
+    .footer-section {
+        height: 950px;
     }
 }

@@ -37,11 +37,23 @@ import ScrollToTopButton from "../../components/ScrollToButton/ScrollToButton";
 // tel-fixed
 import CallButtonFixed  from "../../components/CallButtonFixed/CallButtonFixed";
 
+// SEO  npm install react-helmet
+import { Helmet } from 'react-helmet';
 
 
 function Index(){
     return(
         <>
+        <Helmet>
+            <title>Michigan's Trusted Construction & Remodeling Team</title>
+            <meta name="description" content="From kitchens to basements — we build, repair, and renovate with care. Licensed & insured contractors in Michigan." />
+            <meta name="keywords" content="разработка сайтов, студия, дизайн, фронтенд, SEO" />
+            <meta property="og:title" content="Michigan's Trusted Construction & Remodeling Team" />
+            <meta property="og:description" content="Создание сайтов и уникального стиля для вашего бизнеса." />
+            <link rel="apple-touch-icon" href="/favicon/favicon196.png" />
+            {/* <meta property="og:image" content="/preview-home.png" /> */}
+            <meta property="og:url" content="https://example.com/" />
+        </Helmet>
         <NavBar />
         <MainSection />
         <SectionComponent number={1} buttonText="MANY PROJECTS" />
