@@ -26,20 +26,40 @@ function ContactPage(){
     return(
         <>
             <Helmet>
-                <title>Contact Us – Michigan Builders</title>
-                <meta name="description" content="Contact Michigan Builders for professional construction, renovation, and custom building solutions in Michigan." />
-                <meta name="keywords" content="contact, Michigan Builders, phone, email, location, construction company" />
-                <meta name="author" content="Michigan Builders" />
-                <meta property="og:title" content="Contact Us – Michigan Builders" />
-                <meta property="og:description" content="Get in touch with Michigan Builders for your next construction or renovation project." />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://yourwebsite.com/contact" />
-                <meta property="og:image" content="https://yourwebsite.com/static/contact-banner.jpg" />
+                <title>Contact Remodeling Contractors | Free Consultation in the USA</title>
+                <meta 
+                    name="description" 
+                    content="Contact our remodeling team for a free consultation. We provide services across the USA: painting, drywall, flooring, plumbing, electrical, roofing, siding, carpentry, and complete renovations." 
+                />
+                <meta 
+                    name="keywords" 
+                    content="contact remodeling contractors USA, renovation consultation, painting services USA, drywall contractors, flooring installation, plumbing repair, electrical services, roof repair, roof installation, siding installation, carpentry, handyman services USA" 
+                />
+                <meta property="og:title" content="Contact Remodeling Contractors | Free Consultation in the USA" />
+                <meta property="og:description" content="Get in touch with our nationwide remodeling team. From kitchens and bathrooms to flooring, drywall, roofing, and more — free consultation available." />
+                <meta property="og:image" content="https://builderalexander.pythonanywhere.com/static/image/main-one.png" />
+                <meta property="og:url" content="https://builderalexander.pythonanywhere.com/contact/" />
+
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Contact Us – Michigan Builders" />
-                <meta name="twitter:description" content="Reach out to our expert construction team in Michigan today." />
+                <meta name="twitter:title" content="Contact Remodeling Contractors in the USA" />
+                <meta name="twitter:description" content="Reach out to our crew for remodeling and renovation services nationwide. Painting, drywall, flooring, roofing, plumbing, carpentry, and more." />
+                <meta name="twitter:image" content="https://builderalexander.pythonanywhere.com/static/image/main-one.png" />
+
+                <script type="application/ld+json">
+                    {`
+                        {
+                        "@context": "https://schema.org",
+                        "@type": "WebSite",
+                        "name": "Full Remodeling & Construction Services",
+                        "url": "https://builderalexander.pythonanywhere.com/",
+                        "image": "https://builderalexander.pythonanywhere.com/static/image/main-one.png",
+                        "description": "All types of remodeling services across the USA: painting, drywall, plumbing, electrical, roofing, carpentry, flooring, siding, windows, doors, and more."
+                        }
+                    `}
+                </script>
+
             </Helmet>
-        
+
             <NavBar />
             <ContactSection />
             <SectionComponent number={1} buttonText="TEAM" />

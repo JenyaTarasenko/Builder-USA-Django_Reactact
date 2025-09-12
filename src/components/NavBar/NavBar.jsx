@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'; 
 import './style.css';
 import { NavLink } from 'react-router-dom';
-import logo from '../../assets/image/logo-builder.png'
+import logo from '../../assets/image/menu.png'
+// import logo from '../../assets/image/logo-builder.png'
 function NavBar(){
     return(
         <section className="navigation-section">
@@ -12,7 +13,7 @@ function NavBar(){
                         <img src="#" alt="logo" width="70" height="60" />
                     </Link>         */}
                     <NavLink className="navbar-brand logo-text" to="/">
-                        <img src={logo}  style={{width:'100px', height:"50px"}}alt="logo" width="70" height="60" />
+                        <img src={logo}  style={{width:'120px', height:"40px"}}alt="logo" width="70" height="60" />
                     </NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Переключить навигацию">

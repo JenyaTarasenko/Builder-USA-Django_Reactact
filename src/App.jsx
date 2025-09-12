@@ -15,6 +15,7 @@ import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 // компонент для прокрутки страницы с самого начала с навигации 
 import ScrollTopTop from './components/ScrollTopTop/ScrollTopTop';
+import NotFound from './pages/NotFound/NotFound';
 
 
 
@@ -29,6 +30,8 @@ function App() {
           <Route path="/projects-all" element={<ProjectsPage />} />
           <Route path="/projects/:slug" element={< Detail/>} />
           <Route path="/contact" element={< ContactPage />} />
+          {/* Любой другой путь → NotFound */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
   )

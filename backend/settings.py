@@ -27,6 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
+    'django.contrib.sitemaps', #sitemaps.py  будет файл api.sitemaps
+    
     'corsheaders',
     'rest_framework', #DRF
     'api.apps.ApiConfig', #app

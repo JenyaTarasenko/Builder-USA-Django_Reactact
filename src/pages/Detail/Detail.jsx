@@ -15,26 +15,48 @@ import ScrollToTopButton from "../../components/ScrollToButton/ScrollToButton";
 import CallButtonFixed  from "../../components/CallButtonFixed/CallButtonFixed";
 // SEO  npm install react-helmet
 import { Helmet } from 'react-helmet';
+import Advantages from "../../components/Advantages/Advantages";
+import SectionComponent from "../../components/SectionComponent/SectionComponents";
 
 function Detail(){
     return(
         <>
         <Helmet>
-            <title>Contact Us – Michigan Builders</title>
-            <meta name="description" content="Contact Michigan Builders for professional construction, renovation, and custom building solutions in Michigan." />
-            <meta name="keywords" content="contact, Michigan Builders, phone, email, location, construction company" />
-            <meta name="author" content="Michigan Builders" />
-            <meta property="og:title" content="Contact Us – Michigan Builders" />
-            <meta property="og:description" content="Get in touch with Michigan Builders for your next construction or renovation project." />
-            <meta property="og:type" content="website" />
-            <meta name="twitter:title" content="Contact Us – Michigan Builders" />
-            <meta name="twitter:description" content="Reach out to our expert construction team in Michigan today." />
+            <title>Remodeling Services in the USA | Kitchens, Bathrooms & More</title>
+            <meta 
+                name="description" 
+                content="We provide all types of remodeling services: kitchen and bathroom renovations, basement finishing, flooring installation, drywall, painting, plumbing, roofing, siding, and more." 
+            />
+            <meta 
+                name="keywords" 
+                content="kitchen remodeling USA, bathroom renovation, basement finishing, drywall repair, drywall installation, plastering, flooring installation, hardwood flooring, tile installation, vinyl flooring, painting services, plumbing repair, electrical installation, roof repair, roof replacement, siding installation, carpentry, demolition services, home additions, office renovation" 
+            />
+            <meta property="og:title" content="Remodeling & Renovation Services in the USA" />
+            <meta property="og:description" content="Our crew handles all types of services: kitchens, bathrooms, flooring, drywall, painting, plumbing, roofing, siding, and more." />
+            <meta property="og:image" content="https://builderalexander.pythonanywhere.com/static/image/main-one.png" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Remodeling Services Across the USA" />
+            <meta name="twitter:description" content="Services we provide: kitchen and bathroom remodeling, drywall, flooring, painting, plumbing, roofing, siding, carpentry, and more." />
+            <meta name="twitter:image" content="https://builderalexander.pythonanywhere.com/static/image/main-one.png" />
+            
+            <script type="application/ld+json">
+            {`
+                {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Full Remodeling & Construction Services",
+                "url": "https://builderalexander.pythonanywhere.com/",
+                "image": "https://builderalexander.pythonanywhere.com/static/image/main-one.png",
+                "description": "All types of remodeling services across the USA: painting, drywall, plumbing, electrical, roofing, carpentry, flooring, siding, windows, doors, and more."
+                }
+            `}
+            </script>
         </Helmet>
        
         < NavBar />
         <DetailViews />
         <TextNew />
-        <Gallery />
+        <Advantages />
         <CardBlackMain />
         <CallButtonFixed />
         <ScrollToTopButton />

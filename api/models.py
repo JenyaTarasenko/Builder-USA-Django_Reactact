@@ -6,10 +6,13 @@ class Project(models.Model):
     slug = models.SlugField(unique=True, blank=True, null=True, verbose_name="Слаг")
     description = models.TextField(verbose_name="Описание проекта")
     tehnology_project = models.TextField(default='Технологии не указаны', verbose_name="Технологии проекта")
-    image = models.ImageField(upload_to='products/', null=True, blank=True)
-    image2 = models.ImageField(upload_to='products/', null=True, blank=True)
-    image3 = models.ImageField(upload_to='products/', null=True, blank=True)
-
+    image = models.ImageField(upload_to='products/', null=True, blank=True, verbose_name='Название проектов дo 1')
+    image2 = models.ImageField(upload_to='products/', null=True, blank=True, verbose_name='Название проектов дo 2')
+    image3 = models.ImageField(upload_to='products/', null=True, blank=True, verbose_name='Название проектов дo 3')
+    
+    image_after = models.ImageField(upload_to='products/', null=True, blank=True, verbose_name='Название проектов после 1')
+    image_after2 = models.ImageField(upload_to='products/', null=True, blank=True, verbose_name='Название проектов после 2')
+    image_after3= models.ImageField(upload_to='products/', null=True, blank=True, verbose_name='Название проектов после 3')
     
     def save(self, *args, **kwargs):
         if not self.slug:

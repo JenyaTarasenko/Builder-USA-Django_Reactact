@@ -8,5 +8,6 @@ class ProjectSerializer(serializers.ModelSerializer):
     # image = serializers.SerializerMethodField()
     class Meta:
         model = Project
-        fields = ['id', 'name', 'slug', 'description', 'image',  'image2', 'image3', 'tehnology_project']
+        fields = '__all__'
+        # fields = ['id', 'name', 'slug', 'description', 'image',  'image2', 'image3', 'tehnology_project', 'image_after', 'image_after2','image_after3']
         

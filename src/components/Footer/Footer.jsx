@@ -4,7 +4,8 @@ import facebook from '../../assets/image/Facebook-black.svg';
 import location from '../../assets/image/Location.svg';
 
 import ButtonFooter from '../ButtonFooter/ButtonFooter';
-import logo from '../../assets/image/logo-builder.png';
+// import logo from '../../assets/image/logo-builder.png';
+import logo from '../../assets/image/footer.png';
 
 function Footer(){
     return(
@@ -14,7 +15,7 @@ function Footer(){
                     <div className="footer-section-container d-flex flex-row flex-wrap mt-5">
                         <div className="col-md-6 col-12">
                             <div className="footer-container-right">
-                                <img src={logo}  style={{width:'300px', height:"150px"}}  alt="footer-logo" />
+                                <img src={logo}  style={{width:'200px', height:"70px"}}  alt="footer-logo" />
                                 <h5 className="mt-5">Professional Solutions for Home<br />Improvement and Renovation</h5>
                                 <div className="footer-text-letter mt-5">
                                     <a href="#"><h5>231-439-7166</h5></a>

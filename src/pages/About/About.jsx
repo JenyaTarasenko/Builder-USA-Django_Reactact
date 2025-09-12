@@ -28,15 +28,43 @@ function About(){
     return(
         <>
             <Helmet>
-                <title>About Our Construction Company | Michigan Experts</title>
-                <meta name="description" content="Learn more about our experienced construction and renovation team in Michigan. Quality work and reliable service since [год]." />
-                <meta property="og:title" content="About Our Construction Company" />
-                <meta property="og:description" content="Discover who we are and how we help Michigan homeowners improve their living spaces." />
-                <meta property="og:image" content="/preview-about.png" />
-                <meta property="og:url" content="https://yourdomain.com/about" />
-                <meta name="twitter:title" content="About Our Construction Company | Michigan Experts" />
-                <meta name="twitter:description" content="Michigan-based construction and renovation team delivering quality service you can trust." />
-                <meta name="twitter:image" content="/preview-about.png" />
+                {/* ✅ Title & Description */}
+                <title>About Our Remodeling & Construction Team | Full-Service USA</title>
+                <meta 
+                    name="description" 
+                    content="Learn about our licensed and insured remodeling crew providing all types of construction and renovation services across the USA: painting, drywall, flooring, plumbing, electrical, roofing, carpentry, and more." 
+                />
+                <meta 
+                    name="keywords" 
+                    content="about us remodeling USA, construction team, licensed contractor USA, full-service renovation, painting, drywall, flooring, plumbing, electrical, roofing, carpentry, demolition, siding, wallpaper, kitchen remodeling, bathroom renovation, basement finishing" 
+                />
+
+                {/* ✅ Open Graph (Facebook / LinkedIn) */}
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="About Our Remodeling & Construction Team | Full-Service USA" />
+                <meta property="og:description" content="Our licensed and insured team provides all types of remodeling and construction services nationwide — from painting and drywall to roofing, plumbing, and full home renovations." />
+                <meta property="og:image" content="https://builderalexander.pythonanywhere.com/static/image/main-one.png" />
+                <meta property="og:url" content="https://builderalexander.pythonanywhere.com/about-us/" />
+
+                {/* ✅ Twitter Card */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="About Our Remodeling & Construction Team" />
+                <meta name="twitter:description" content="Licensed remodeling crew in the USA handling painting, drywall, flooring, plumbing, electrical, roofing, carpentry, and complete renovations." />
+                <meta name="twitter:image" content="https://builderalexander.pythonanywhere.com/static/image/main-one.png" />
+
+                <script type="application/ld+json">
+                    {`
+                        {
+                        "@context": "https://schema.org",
+                        "@type": "WebSite",
+                        "name": "Full Remodeling & Construction Services",
+                        "url": "https://builderalexander.pythonanywhere.com/",
+                        "image": "https://builderalexander.pythonanywhere.com/static/image/main-one.png",
+                        "description": "All types of remodeling services across the USA: painting, drywall, plumbing, electrical, roofing, carpentry, flooring, siding, windows, doors, and more."
+                        }
+                    `}
+                </script>
+
             </Helmet>
             
             <NavBar />

@@ -37,6 +37,11 @@ import ScrollToTopButton from "../../components/ScrollToButton/ScrollToButton";
 // tel-fixed
 import CallButtonFixed  from "../../components/CallButtonFixed/CallButtonFixed";
 
+import SliderDo from "../../components/SliderDo/SliderDo";
+import SliderAfter from "../../components/SliderAfter/SliderAfter";
+import TextDoAfter from "../../components/TextDoAfter/TextDoAfter";
+import Advantages from "../../components/Advantages/Advantages";
+
 // SEO  npm install react-helmet
 import { Helmet } from 'react-helmet';
 
@@ -45,14 +50,48 @@ function Index(){
     return(
         <>
         <Helmet>
-            <title>Michigan's Trusted Construction & Remodeling Team</title>
-            <meta name="description" content="From kitchens to basements — we build, repair, and renovate with care. Licensed & insured contractors in Michigan." />
-            <meta name="keywords" content="разработка сайтов, студия, дизайн, фронтенд, SEO" />
-            <meta property="og:title" content="Michigan's Trusted Construction & Remodeling Team" />
-            <meta property="og:description" content="Создание сайтов и уникального стиля для вашего бизнеса." />
-            <link rel="apple-touch-icon" href="/favicon/favicon196.png" />
-            {/* <meta property="og:image" content="/preview-home.png" /> */}
-            <meta property="og:url" content="https://example.com/" />
+            <title>All Types of Remodeling & Construction Services in the USA</title>
+            <meta 
+                name="description" 
+                content="Our crew delivers all types of remodeling and construction services: kitchens, bathrooms, basements, flooring, drywall, painting, and full renovations. Licensed & insured contractors in the USA." 
+            />
+            <meta 
+                name="keywords" 
+                content="remodeling USA, construction services, full renovation, kitchen remodeling, bathroom renovation, drywall, flooring installation, basement finishing" 
+            />
+            <meta property="og:title" content="Michigan Construction & Remodeling | Trusted Contractors" />
+            <meta 
+                property="og:description" 
+                content="Professional construction and remodeling services in Michigan. Kitchens, bathrooms, basements — we build and renovate with care." 
+            />
+             {/* ✅ Open Graph for Facebook / LinkedIn */}
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content="All Types of Remodeling & Construction Services in the USA" />
+            <meta property="og:description" content="From kitchens to basements — our team provides every type of remodeling service across the United States." />
+            <meta property="og:image" content="https://builderalexander.pythonanywhere.com/static/image/main-one.png" />
+            <meta property="og:url" content="https://builderalexander.pythonanywhere.com/" />
+
+              {/* ✅ Twitter Card */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="All Types of Remodeling & Construction Services in the USA" />
+            <meta name="twitter:description" content="Kitchens, bathrooms, basements, flooring, drywall, painting, and more. Our licensed crew works on all types of remodeling projects in the USA." />
+            <meta name="twitter:image" content="https://builderalexander.pythonanywhere.com/static/image/main-one.png" />
+
+              {/* JSON-LD */}
+            <script type="application/ld+json">
+            {`
+                {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Full Remodeling & Construction Services",
+                "url": "https://builderalexander.pythonanywhere.com/",
+                "image": "https://builderalexander.pythonanywhere.com/static/image/main-one.png",
+                "description": "All types of remodeling services across the USA: painting, drywall, plumbing, electrical, roofing, carpentry, flooring, siding, windows, doors, and more."
+                }
+            `}
+            </script>
+
+          
         </Helmet>
         <NavBar />
         <MainSection />
@@ -61,21 +100,28 @@ function Index(){
         <SectionComponent number={2} buttonText="TYPES OF WORK" />
         <BoxProject />
         <TextNew />
-        <SectionComponent number={3} buttonText="REVIEWS" />
-        <SliderReview  />
+        <SectionComponent number={3} buttonText="Before & After" />
+        <TextDoAfter />
+        <SliderDo />
+        <SliderAfter />
+        <SectionComponent number={4} buttonText="Advantages" />
+        <Advantages />
         <TextCenterSection />
-        <SectionComponent number={4} buttonText="ALL TYPES OF WORK" />
+        <SectionComponent number={5} buttonText="ALL TYPES OF WORK" />
         <WorkBoxSection />
         <CardBlackMain />
-        <SectionComponent number={5} buttonText="TEAM" />
+        <SectionComponent number={6} buttonText="TEAM" />
         <Team  />
-        <SectionComponent number={6} buttonText="ABUOT JOB" />
+        <SectionComponent number={7} buttonText="ABUOT JOB" />
         <AboutJobSection />
-        <SectionComponent number={7} buttonText="Contact us" />
+        <SectionComponent number={8} buttonText="Contact us" />
         <ContactUs image={imageJob} />
-        <SectionComponent number={8} buttonText="Questions" />
+        <SectionComponent number={9} buttonText="Questions" />
         <QuestionSection />
         <CallButtonFixed />
+        <ScrollToTopButton  />
+        <SectionComponent number={10} buttonText="REVIEWS" />
+        <SliderReview  />
         <ScrollToTopButton  />
         <Footer />
         {/* <ListViews/> */}
