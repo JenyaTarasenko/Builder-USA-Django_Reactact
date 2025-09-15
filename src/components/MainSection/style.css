@@ -20,14 +20,22 @@
     text-transform: uppercase;
 }
 .left-column h2 {
-    font-size: 25px;
-    color: #d0d0d0;
+    font-size: 35px;
+    color: #e8e8e8;
     width: 600px;
-  
     margin-top: 30px;
     font-family: Jost;
+    font-weight: 600;
     font-style: italic;
-    font-weight: 300;
+}
+.main-section {
+    margin-top: 70px;
+    background-image: url('image/main-destop.png'); /* или ../assets/... если относительный путь подходит */
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    min-height: 300px;
+    border-radius: 20px
 }
 
 /* анимация текста */
@@ -52,4 +60,39 @@
     animation-delay: 0.5s;
 }
 /* анимация текста */
+
+
+.logo-main {
+    width: 250px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+  
+.logo-main:hover {
+    transform: scale(1.05);
+}
+.logo-main:active {
+    transform: scale(0.95);
+}
+
+.logo-main {
+    opacity: 0;
+    animation: fadeDown 2s ease-out 1s forwards;
+}
+  
+@keyframes fadeDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.main-mob {
+    display: none;
+
+}
   

@@ -19,10 +19,10 @@
         width: 320px;
         font-weight: 600;
     }
-    .right-column {
+    /* .right-column {
         margin-top: 30px;
 
-    }
+    } */
     .btn-with-circle-smale{
         margin-left: 100px;
     }
@@ -67,6 +67,12 @@
     }
 }
 @media (max-width: 590px){
+    .main-section{
+        display: none;
+    }
+    .main-mob {
+        display: block;
+    }
     .about-job-container-column-center-top {
         width: 320px;
         height: 400px;

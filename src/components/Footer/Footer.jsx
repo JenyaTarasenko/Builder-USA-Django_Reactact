@@ -2,12 +2,25 @@ import './style.css';
 import instgram from '../../assets/image/Instagram-black.svg';
 import facebook from '../../assets/image/Facebook-black.svg';
 import location from '../../assets/image/Location.svg';
+import { useInView } from "react-intersection-observer";
+
 
 import ButtonFooter from '../ButtonFooter/ButtonFooter';
 // import logo from '../../assets/image/logo-builder.png';
 import logo from '../../assets/image/footer.png';
 
 function Footer(){
+    const { ref, inView } = useInView({
+        triggerOnce: true,  // анимация сработает только один раз
+        threshold: 0.2       // 20% блока видимо — запускаем анимацию
+    });
+
+    const fadeInRightStyle = {
+        opacity: inView ? 1 : 0,
+        transform: inView ? "translateX(0)" : "translateX(50px)", // сдвиг справа
+        transition: "opacity 1.2s ease-out, transform 1.2s ease-out"
+    };
+
     return(
         <section className="footer-section">
             <div className="container">
@@ -28,8 +41,8 @@ function Footer(){
                             </div>
                         </div>
                         <div className="col-md-6 col-12">
-                            <div className="footer-container-left d-flex justify-content-center flex-column">
-                                <h5 style={{textTransform:'uppercase',fontStyle: "italic" }}>All types of construction work in Michigan</h5>
+                            <div ref={ref} className="footer-container-left d-flex justify-content-center flex-column">
+                                <h5 style={{ ...fadeInRightStyle, textTransform:'uppercase',fontStyle: "italic" }}>All types of construction work in Michigan</h5>
                                 <div class="d-flex flex-row mt-3 align-items-start">
                                     <img src={location } alt="location" />
                                     <div className="mt-auto"><h6>USA Michigan</h6></div>
