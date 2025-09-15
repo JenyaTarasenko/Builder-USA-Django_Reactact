@@ -36,3 +36,33 @@
     font-size: 13px;
     color: #000;
 }
+
+
+.logo-main {
+    width: 250px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+  
+.logo-main:hover {
+    transform: scale(1.05);
+}
+.logo-main:active {
+    transform: scale(0.95);
+}
+
+.logo-main {
+    opacity: 0;
+    animation: fadeDown 2s ease-out 1s forwards;
+}
+  
+@keyframes fadeDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
