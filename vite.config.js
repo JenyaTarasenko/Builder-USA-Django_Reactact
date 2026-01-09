@@ -7,7 +7,7 @@
 // import react from '@vitejs/plugin-react'
 // const cssFileName = 'index.min.css'
 
-// https://vite.dev/config/
+
 // export default defineConfig({
 //   plugins: [react()],
 //   publicDir: './public',
@@ -30,6 +30,7 @@
 
 // ДЭПЛОЙ
 // для продакшен добавлят /static и читает с статики собранной 
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
