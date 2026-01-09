@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/          # запрет индексации панели администрирования
+Disallow: /venv/           # запрет индексации виртуального окружения
+Disallow: /staticfiles/    # запрет индексации собранных CSS/JS
+Disallow: /media/          # запрет индексации загруженных медиафайлов
+Allow: /                   # разрешаем индексировать всё остальное
+
+# Sitemap
+Sitemap: https://house-doctor-builder.com/sitemap.xml
