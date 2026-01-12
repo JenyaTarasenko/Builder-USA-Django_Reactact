@@ -18,7 +18,8 @@ DEBUG = False
 ALLOWED_HOSTS = [
     'www.house-doctor-builder.com',
     'house-doctor-builder.com',
-]
+]# settings.py
+SECURE_SSL_REDIRECT = True
 
 INSTALLED_APPS = [
     'django.contrib.admin',
